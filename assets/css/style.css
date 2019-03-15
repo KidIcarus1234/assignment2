@@ -1,0 +1,100 @@
+﻿
+@import "reset.css";
+
+/*hiding the navigation bar*/
+nav{
+	visibility:hidden;
+}
+
+body{
+    background-color: #e0e0e0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*setting up the fixed header, learnt from https://www.w3schools.com/howto/howto_js_sticky_header.asp, https://www.w3schools.com/css/css_padding.asp,*/
+.stickyHead{
+	position:fixed;
+	background:#27a327;
+	padding:10px;
+	top:0;
+	left:0;
+	width:100%;
+    color:#ffffff;
+    
+}
+    .stickyHead table{
+        float: right;
+        padding-right: 20px;
+    }
+        .stickyHead th{
+
+            font-weight: normal;
+    }
+            .stickyHead a{    
+                color:#ffffff;
+                text-decoration: none;
+                padding: 0 10px 0 10px;
+    }
+
+                .stickyHead a:hover{
+                    color:#ff0000;
+}
+}
+/* main heading style*/
+.heading1{
+     float:left;
+}
+h1{
+    color:#ffffff;
+    text-align: left;
+    width:300px;
+    font-size: 24px;
+    padding:10px 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    
+}
+/*spacing for main page*/
+main{
+    padding: 110px 130px;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    color:darkblue;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+h5{
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+p{
+    padding-bottom: 20px;
+}
+
+section{   
+	/*width:100% will be within the main padding set above. width as a % make the page scale to the window size*/
+    width: 100%;
+}
+
+/*sets all images as 480 pixels wide. The height will adjust with the shape of the image*/
+img {
+    width:480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    font-weight: 200;
+    padding-bottom: 5px;
+}
+li{
+    padding-bottom: 5px;
+}
+footer {
+    padding-top: 25px;
+}
